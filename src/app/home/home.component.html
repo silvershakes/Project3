@@ -1,0 +1,587 @@
+
+<head>
+    
+    <!--adding cdn links-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+
+<style>
+.notibar :hover{
+    transform: translateY(2px);
+    transition: 2s;
+}
+
+.wrapper{
+  overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar{width: 0%;}
+.wrapper .item{
+  min-width: 300px;
+  line-height: 30px;
+
+}
+
+.fut{
+  color: rgb(106, 84, 84);
+}
+
+.fut:hover{
+  color: white;
+  transition: 1s;
+}
+
+.fut2{
+    margin-left: -1%;
+    width: 100%;
+    height: 300px;
+}
+
+.icon1{
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 50px 0 50px 0;
+}
+
+.icon1 i{
+    margin: 4px;
+}
+
+.icon1 i:hover{
+    color: white;
+    transition: 1s;
+}
+
+.fut2 p{
+    color: #666666;
+    text-align: center;
+    padding: 0 20px;
+}
+
+/*.hide{
+  display: none;
+  position: absolute;
+  z-index: 1;
+
+}
+
+.call:hover + .hide {
+  display: block;
+  width: 100%;
+  background-color: gray;
+
+}
+*/
+</style>
+
+<div>
+    <marquee width="100%" direction="left" height="40%" scrollamount="25%" style="background-color: rgb(141, 116, 116);">Abhishek Bachchan and Saiyami Kher bowl over 100 young, underprivileged
+      beneficiaries’ hearts with BookASmile, at a special screening for ‘Ghoomer’|||||LOLLAPALOOZA INDIA GEARS UP FOR A MAGNANIMOUS RETURN WITH AN
+      EXCITING SECOND EDITION IN 2024, SET TO BE TWICE AS EPIC
+      </marquee>
+    <!--carosol-->
+  
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="margin-top: -0.35%;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/home-carosol1.avif" class="d-block w-100" alt="test">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/home-carosol2.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/home-carosol3.avif"  class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  
+  
+    <div class="" style="margin: 3%;">
+      <h2>Recommended Movies</h2>
+  
+      <div style="width: 100%; display: inline-flex; float: left;" class="wrapper">
+  
+        <div class="card item" style="width: 300px; border: 0;">
+          <a routerLink="moviedesc"><img src="assets/farray.avif" style="width: 100%;"></a> 
+          <div class="card-body">
+            <P style="font-size: x-large; font-weight: bold;" class="card-img-top" data-bs-toggle="tooltip" 
+            title=" ABOUT THIS MOVIE:-
+            Farrey is the story of Niyati and Akash, two toppers from a poor background. 
+            Niyati is living with her foster parents and the foster kids while Akash 
+            works as a part time delivery boy. When they get admission at the no.1 
+            college in the city, their world collides with another, the richer kind.
+
+                    
+CASTS:-1.Alizeh Agnihotri 
+             2.Kshitee Jog
+             3.Ronit Roy
+             4.Sahil Mehta 
+             5.Juhi Babbar
+             6.Arbaaz Khan 
+             7.Shilpa Shukla
+             8.Prasanna Bisht 
+              " >Farrey</P>
+            <p style="font-size: large;">Drama/Thriller</p>
+          </div>
+
+          <script>
+            // Initialize tooltips
+            vartooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+            vartooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+            })
+            </script>
+
+        </div>
+  
+        <div class="card item" style="width: 300px; border: 0; margin-left: 2%;">
+          <a ><img src="assets/zimma.avif" class="card-img-top" style="width: 100%;"></a> 
+  
+          <div class="card-body">
+            <P style="font-size: x-large; font-weight: bold;" data-bs-toggle="tooltip"  title=" ABOUT THIS MOVIE:-
+            The gang reunites for yet another excursion filled with
+            adventure and self-discovery but this time with some unexpected
+            twists. They come across new challenges that seem unsurpassable,
+            but with the right people by your side, nothing
+            seems impossible.
+
+CASTS:-1.Sayali Sanjeev
+             2.Kshitee Jog
+             3.Nirmiti Sawant
+             4.Rinku Rajguru
+             5.Suchitra Bandekar
+             6.Suhas Joshi
+             7.Shivani Surve
+             8.Siddharth Chnadekar
+      " >Zimma</P>
+            <p style="font-size: large;">Comedy/Drama/Family</p>
+          </div>
+  
+          <router-outlet></router-outlet>
+        </div>
+  
+        <div class="card item" style="width: 300px; border: 0; margin-left: 2%;">
+          <a ><img src="assets/tiger3.avif" class="card-img-top" style="width: 100%;"></a> 
+  
+          <div class="card-body call" style="position: relative;"data-bs-toggle="tooltip" 
+          title=" ABOUT THIS MOVIE:-
+          Tiger and Zoya recruit their team of RAW agents, to steal a briefcase for Aatish,
+          containing missile launch codes in Istanbul in exchange for Junior. Aatish then 
+          has Tiger and Zoya framed as traitors by their respective countries, leading to
+          Tiger's detention at an army prison in northern Pakistan.
+
+                  
+CASTS:-1.Salman Khan 
+            2.Katrina Kaif 
+            3.Emraan Hashmi
+            4.Revathi Mehta 
+            5.Simran 
+            " >
+            <P style="font-size: x-large; font-weight: bold;">Tiger 3</P>
+            <p style="font-size: large;">Action/Thriller</p>
+          </div>
+
+          <!--> <div class="hide">
+            ABOUT THIS MOVIE:-<br>
+            The gang reunites for yet another excursion filled with
+            adventure and self-discovery but this time with some unexpected
+            twists. They come across new challenges that seem unsurpassable,
+            but with the right people by your side, nothing
+            seems impossible.
+<br>
+CASTS:-1.Sayali Sanjeev<br>
+             2.Kshitee Jog<br>
+             3.Nirmiti Sawant<br>
+             4.Rinku Rajguru<br>
+             5.Suchitra Bandekar<br>
+             6.Suhas Joshi<br>
+             7.Shivani Surve<br>
+             8.Siddharth Chnadekar    <br>      </div> <-->
+  
+        </div>
+  
+        <div class="card item" style="width: 300px; border: 0; margin-left: 2%;">
+          <a ><img src="assets/napolian.avif" class="card-img-top" style="width: 100%;"></a> 
+  
+          <div class="card-body" data-bs-toggle="tooltip" 
+          title=" ABOUT THIS MOVIE:-
+          Based on the story of Napoleon Bonaparte, primarily depicting the French leader's
+          rise to power as well as his relationship with Empress Joséphine, the film stars
+          Joaquin Phoenix as Napoleon and Vanessa Kirby as Joséphine.
+
+                  
+CASTS:-1.Joaquin Phoenix 
+            2.Vanessa Kirby
+            3.Tahar Rahim
+            4.Rupert Everett 
+            5.Mark Bonnar
+            6.Paul Rhys
+            7.Ben Miles
+            8.Riana Duce 
+            " >
+            <P style="font-size: x-large; font-weight: bold;">Napoleon</P>
+            <p style="font-size: large;">Action/Drama/Historical</p>
+          </div>
+  
+        </div>
+  
+        <div class="card item" style="width: 300px; border: 0; margin-left: 2%;">
+          <a ><img src="assets/12th fail.avif" class="card-img-top" style="width: 100%;"></a> 
+  
+          <div class="card-body" data-bs-toggle="tooltip" 
+          title=" ABOUT THIS MOVIE:-
+          12th Fail is a 2023 Indian Hindi-language biographical drama film produced,
+          written and directed by Vidhu Vinod Chopra. It is based on the 2019 eponymous
+          non-fiction book by Anurag Pathak about the real-life story of Manoj Kumar Sharma
+          who overcame extreme poverty to become an Indian Police Service officer.
+
+                  
+CASTS:-1.Vikrant Massey 
+            2.Medha Shankar
+            3.Sanjay Bishnoi
+            4.Anant V Joshi 
+            5.Anshuman Pushkar
+            6.Sukumar Tudu
+            7.Priyanshu Chatterjee
+            8.Suraj Naagar 
+            ">
+            <P style="font-size: x-large; font-weight: bold;">12th Fail</P>
+            <p style="font-size: large;">Drama</p>
+          </div>
+  
+        </div>
+  
+        <div class="card item" style="width: 300px; border: 0; margin-left: 2%;">
+          <a ><img src="assets/naal.avif" class="card-img-top" style="width: 100%;"></a> 
+  
+          <div class="card-body">
+            <P style="font-size: x-large; font-weight: bold;">Naal - Bhag 2</P>
+            <p style="font-size: large;">Drama/Family</p>
+          </div>
+  
+        </div>
+  
+  
+      </div>
+  
+      <img src="assets/stream-leadin-web-collection-202210241242.avif">
+  
+      <h2 class="mt-4">Your Music Studio</h2>
+  
+      <div style="width: 100%; display: inline-flex; float: left;">
+  
+        <div class="card " style="width: 300px; border: 0;">
+          <a ><img src="assets/redbull dance.avif" class="card-img-top" style="width: 100%;" data-bs-toggle="tooltip" 
+            title=" ABOUT THIS SHOW:-
+            After World Finals in cities across the globe, Mumbai will host the Red Bull 
+            Dance Your Style World Final 2024 on November 9. Maximum City will welcome the 
+            best international street dancers to perform in this unique one-on-one mixed-style 
+            dance battle, where you – the audience – decides who takes home the title. 
+              "></a> 
+  
+          <div class="card-body">
+            <P style="font-size: x-large; font-weight: bold;">Red Bull Dance Your Style World Final 2024</P>
+            <p style="font-size: large;">Dome,NSCL,SVP,Stadium,Worli: Mumbai <br>Dance</p>
+          </div>
+  
+        </div>
+  
+        <div class="card " style="width: 300px; border: 0; margin-left: 3%;">
+          <a ><img src="assets/sunburn goa.avif" class="card-img-top" style="width: 100%;" data-bs-toggle="tooltip" 
+            title=" ABOUT THIS SHOW:-
+            The festival is held at one of the best party destinations in the country, 
+            Goa! Nothing can beat a fun-filled 3-day holiday of complete relaxation and 
+            unlimited fun with your gang. The festival begins in the evening and goes on 
+            till late at night. During the day you could participate in various workshops.
+              "></a> 
+  
+          <div class="card-body">
+            <P style="font-size: x-large; font-weight: bold;">Sunburn Goa 2023</P>
+            <p style="font-size: large;">Vagator: Goa<br>Concerts</p>
+          </div>
+  
+        </div>
+  
+        <div class="card " style="width: 300px; border: 0;margin-left: 3%;">
+          <a ><img src="assets/bandland.avif" class="card-img-top" style="width: 100%;" data-bs-toggle="tooltip" 
+            title=" ABOUT THIS SHOW:-
+            Bandland is a two-day musical and cultural event that will take
+            place at Bengaluru's Embassy International Riding School Ground. 
+            The dates decided for this festival are December 16 and 17, 2023.
+              "></a> 
+  
+          <div class="card-body">
+            <P style="font-size: x-large; font-weight: bold;">Bandland</P>
+            <p style="font-size: large;">Embassy International Riding School:Bengaluru<br>Concerts</p>
+          </div>
+  
+        </div>
+  
+        <div class="card " style="width: 300px; border: 0;margin-left: 3%;">
+          <a ><img src="assets/banglore open air.avif" class="card-img-top" style="width: 100%;" data-bs-toggle="tooltip" 
+            title=" ABOUT THIS SHOW:-
+            After years of steadying their foothold as one of the only metal festivals 
+            in India, Bangalore Open Air 2024 announced the full lineup for a two-day edition 
+            on February 9th and 10th in Bengaluru. The forthcoming festival will mark the India 
+            debut of Swedish metal band In Flames.
+              "></a> 
+  
+          <div class="card-body">
+            <P style="font-size: x-large; font-weight: bold;">Bangalore Open Air 2024</P>
+            <p style="font-size: large;">Venue To Be Announced:<br>Bengaluru<br>Concerts</p>
+          </div>
+  
+        </div>
+  
+      </div>
+  
+      <h2 class="mt-4">Outdoor Events <span class="badge bg-danger">NEW</span></h2>
+  
+      <div style="width: 100%; display: inline-flex; float: left; margin-left: -2%;" class="wrapper">
+  
+        <div class="card item" style="width: 300px; border: 0; margin-left: 2%;">
+          <a ><img src="assets/prokabbadi.avif" class="card-img-top" style="width: 100%;" data-bs-toggle="tooltip" 
+            title=" ABOUT THIS SHOW:-
+            Puneri Paltan Pro Kabaddi: Representing the city of Pune, Maharashtra in the 
+            Pro Kabaddi League, Puneri Paltan stands as a stalwart professional Kabaddi team. 
+            Situated at the Shree Shiv Chhatrapati Sports Complex and under the guidance of 
+            Coach BC Ramesh, this team has etched its presence in the league's history.
+              "></a> 
+  
+          <div class="card-body">
+            <P style="font-size: x-large; font-weight: bold;">Pro Kabbadi League Season-10 - Puneri Paltan</P>
+            <p style="font-size: large;">Multiple Venues</p>
+          </div>
+  
+        </div>
+  
+        <div class="card item" style="width: 300px; border: 0; margin-left: 2%;">
+          <a ><img src="assets/t20.avif" class="card-img-top" style="width: 100%;"></a> 
+  
+          <div class="card-body">
+            <P style="font-size: x-large; font-weight: bold;">India vs Australia - 3rd T20i</P>
+            <p style="font-size: large;">ACA Stadium, Barsapara: <br>Guwahati</p>
+          </div>
+  
+        </div>
+  
+        <div class="card item" style="width: 300px; border: 0; margin-left: 2%;">
+          <a ><img src="assets/kisi ko batana mat.avif" class="card-img-top" style="width: 100%;" data-bs-toggle="tooltip" 
+            title=" ABOUT THIS SHOW:-
+            Get ready to rediscover your appetite for stand-up, as Bassi is all equipped 
+            with a killer strategy featuring brand new jokes, hilarious wisecracks, 
+            side-splitting humour, and a killer content that'll surely leave you in stitches. 
+            Wait till you witness the memefest that this show is about to unfurl in your city.
+              "></a> 
+  
+          <div class="card-body">
+            <P style="font-size: x-large; font-weight: bold;">Kisi Ko Batana Mat Ft.Anubhav Singh Bassi</P>
+            <p style="font-size: large;">Shilpakala Vedika : Hyderabad</p>
+          </div>
+  
+        </div>
+  
+        <div class="card item" style="width: 300px; border: 0; margin-left: 2%;">
+          <a ><img src="assets/mamma mia.avif" class="card-img-top" style="width: 100%;" data-bs-toggle="tooltip" 
+            title=" ABOUT THIS SHOW:-
+            Mamma Mia! (promoted as Mamma Mia! The Movie) is a 2008 jukebox musical romantic 
+            comedy film directed by Phyllida Lloyd and written by Catherine Johnson, based on 
+            her book from the 1999 musical of the same name. The film is based on the songs of 
+            pop group ABBA, with additional music composed by ABBA member Benny Andersson.
+
+CASTS:-1.Meryl Streep 
+            2.Amanda Seyfried
+            3.Pierce Brosnan
+            4.Colin Firth 
+            5.Chridtine Baranski
+            6.Julie Walters
+            7.Stellan Skarsgard
+            8.Dominc Cooper 
+              "></a> 
+  
+          <div class="card-body">
+            <P style="font-size: x-large; font-weight: bold;">MAMMA MIA!</P>
+            <p style="font-size: large;">Grand Theatre, Nita Mukesh Ambani Cultural Center</p>
+          </div>
+  
+        </div>
+  
+        <div class="card item" style="width: 300px; border: 0; margin-left: 2%;">
+          <a ><img src="assets/fitnessvitual.avif" class="card-img-top" style="width: 100%;"></a> 
+  
+          <div class="card-body">
+            <P style="font-size: x-large; font-weight: bold;">Fitness Virtual Marathon 2024</P>
+            <p style="font-size: large;">Your Place and Your Time: India</p>
+          </div>
+  
+        </div>
+        
+      </div>
+  
+      <h2 class="mt-4">Top Games & Sport Events</h2>
+  
+      <div style="width: 100%; display: inline-flex; float: left; margin-left: -2%;" class="wrapper">
+        <div class="card item" style="width: 300px; border: 0; margin-left: 2%;">
+          <a ><img src="assets/t20.avif" class="card-img-top" style="width: 100%;"></a> 
+  
+          <div class="card-body">
+            <P style="font-size: x-large; font-weight: bold;">India vs Australia - 3rd T20i</P>
+            <p style="font-size: large;">ACA Stadium, Barsapara: <br>Guwahati</p>
+          </div>
+  
+        </div>
+  
+        <div class="card item" style="width: 300px; border: 0; margin-left: 2%;">
+          <a ><img src="assets/prokabbadi.avif" class="card-img-top" style="width: 100%;" data-bs-toggle="tooltip" 
+            title=" ABOUT THIS SHOW:-
+            Puneri Paltan Pro Kabaddi: Representing the city of Pune, Maharashtra in the 
+            Pro Kabaddi League, Puneri Paltan stands as a stalwart professional Kabaddi team. 
+            Situated at the Shree Shiv Chhatrapati Sports Complex and under the guidance of 
+            Coach BC Ramesh, this team has etched its presence in the league's history.
+              "></a> 
+  
+          <div class="card-body">
+            <P style="font-size: x-large; font-weight: bold;">Pro Kabbadi League Season-10 - Puneri Paltan</P>
+            <p style="font-size: large;">Multiple Venues</p>
+          </div>
+  
+        </div>
+  
+        <div class="card item" style="width: 300px; border: 0; margin-left: 2%;">
+          <a ><img src="assets/losttresure.avif" class="card-img-top" style="width: 100%;" data-bs-toggle="tooltip" 
+            title=" ABOUT THIS SHOW:-
+            You are a group of explorers who love travelling to Jungles across the world. 
+            This time you choose Sundarbans famous for deadly wild beasts and tough terrain. 
+            Locals told you about the ancient lost treasure in the Jungle. This excites you 
+            even further, but you realize this can be a dangerous adventure.
+              "></a> 
+  
+          <div class="card-body">
+            <P style="font-size: x-large; font-weight: bold;">Online Game - Lost Tresure of Sundarbans</P>
+            <p style="font-size: large;">Online(Play From Home)</p>
+          </div>
+  
+        </div>
+  
+        <div class="card item" style="width: 300px; border: 0; margin-left: 2%;">
+          <a ><img src="assets/samuraisudoko.avif" class="card-img-top" style="width: 100%;" data-bs-toggle="tooltip" 
+            title=" ABOUT THIS SHOW:-
+            Samurai Sudoku follows the same rules as Sudoku in that every row, column 
+            and block of each of the five grids must contain the numbers 1 to 9. Where 
+            the grids overlap, the rows and columns do not go beyond their usual length
+            but the interlocking blocks give you more clues.
+              "></a> 
+  
+          <div class="card-body">
+            <P style="font-size: x-large; font-weight: bold;">Samurai Sudoku Championship by Malsar</P>
+            <p style="font-size: large;">Watch on Zoom.</p>
+          </div>
+  
+        </div>
+  
+        <div class="card item" style="width: 300px; border: 0; margin-left: 2%;">
+          <a ><img src="assets/monthly sudo.avif" class="card-img-top" style="width: 100%;"></a> 
+  
+          <div class="card-body">
+            <P style="font-size: x-large; font-weight: bold;">Monthly Sudoku Challenge</P>
+            <p style="font-size: large;">Watch on Zoom.</p>
+          </div>
+  
+        </div>
+  
+      </div>
+  
+  
+    </div>
+  
+    <div style="background-color: #333338; margin-top: 50%;">
+      <div style="display: inline-flex; float: left; width: 100%;">
+        <div style="width: 85%;">
+            <p class="text-white" style="padding: 2%; font-size: large;"><b>List your show </b>   Got a show,event,activity or a great experience? Partner with us & get listed on BookMyShow</p>
+        </div>
+  
+        <div style="margin-top: 1%;">
+            <button class="btn btn-danger btn-lg" onclick="onclickfunction()">Contact Today!</button>
+        </div>
+    </div>
+  
+      <div style="margin-left: 3%;">
+        <h6 style="color: rgb(196, 165, 165);">MOVIES NOW SHOWING</h6>
+        <p><span class="fut">Jhimma 2 </span>|<span class="fut"> Tiger 3 </span>|<span class="fut"> Napoleon </span>|<span class="fut"> Farrey </span>|<span class="fut"> Naal Bhag-2 </span>|<span class="fut"> 12th Fail </span>|<span class="fut"> Animal </span></p>
+      
+        <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">UPCOMING MOVIES</h6>
+        <p><span class="fut">Atharva </span>|<span class="fut"> The Bikeriders </span>|<span class="fut"> Raapata </span>|<span class="fut"> Naadu </span>|<span class="fut"> Palle Gootiki pandagocchindhi </span>|<span class="fut"> Sam Bahadur </span>|<span class="fut"> Gaarudiga </span>|<span class="fut"> Dance Party </span>|<span class="fut"> Annapoorani - The Goddess of Food </span>|<span class="fut"> Anavarana </span></p>
+      
+        <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">MOVIES BY GEBRE</h6>
+        <p><span class="fut">Drama Movies </span>|<span class="fut"> Action Movies </span>|<span class="fut"> Thriller Movies </span>|<span class="fut"> Crime Movies </span>|<span class="fut"> Adaptation Movies </span>|<span class="fut"> Mythological Movies </span>|<span class="fut"> Noir Movies </span>|<span class="fut"> Political Movies </span>|<span class="fut"> Supernattural Movies </span>|<span class="fut"> Sports Movies </span></p>
+  
+        <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">MOVIES BY LANGUAGE</h6>
+        <p><span class="fut">Movies in Hindi </span>|<span class="fut"> Movies in Marathi </span>|<span class="fut"> Movies in Chattisgrahi </span>|<span class="fut"> Movies in Khasi </span>|<span class="fut"> Movies in Tulu </span>|<span class="fut"> Movies in Japanese </span>|<span class="fut"> Movies in French </span>|<span class="fut"> Movies in Konkani </span>|<span class="fut"> Movies in Portuguese </span>|<span class="fut"> Movies in Punjabi </span></p>
+  
+        <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">MOVIE REVIEWS AND TRENDING ARTICLES</h6>
+        <p><span class="fut">Trending Articles </span>|<span class="fut"> Latest News on Movies,Events,Plays and Sports </span>|<span class="fut"> Movie Celebrities </span>|<span class="fut"> Trailers </span></p>
+  
+        <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">Sports Events</h6>
+        <p><span class="fut">Online Games </span>|<span class="fut"> E-Sports </span>|<span class="fut"> Football </span>|<span class="fut"> Kabaddi </span>|<span class="fut"> Athletics </span>|<span class="fut"> Baseball </span>|<span class="fut"> Badminton </span>|<span class="fut"> Chess </span>|<span class="fut"> Cycling </span></p>
+  
+        <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">Events In Top Cities</h6>
+        <p><span class="fut">Events In Mumbai </span>|<span class="fut"> Events In Delhi-NCR </span>|<span class="fut"> Events In Chennai </span>|<span class="fut"> Events In Bengaluru </span>|<span class="fut"> Events In Hydrabad </span>|<span class="fut"> Events In Pune </span>|<span class="fut"> Events In Ahemdabad </span>|<span class="fut"> Events In Kolkata </span>|<span class="fut"> Events In Kochi </span></p>
+  
+        <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">CINEMAS In Top Cities</h6>
+        <p><span class="fut">Cinemas In Mumbai </span>|<span class="fut"> Cinemas In Delhi-NCR </span>|<span class="fut"> Cinemas In Chennai </span>|<span class="fut"> Cinemas In Bengaluru </span>|<span class="fut"> Cinemas In Hydrabad </span>|<span class="fut"> Cinemas In Pune </span>|<span class="fut"> Cinemas In Ahemdabad </span>|<span class="fut"> Cinemas In Kolkata </span>|<span class="fut"> Cinemas In Kochi </span></p>
+  
+        <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">Plays In Top Cities</h6>
+        <p><span class="fut">Plays In Mumbai </span>|<span class="fut"> Plays In Delhi-NCR </span>|<span class="fut"> Plays In Chennai </span>|<span class="fut"> Plays In Bengaluru </span>|<span class="fut"> Plays In Hydrabad </span>|<span class="fut"> Plays In Pune </span>|<span class="fut"> Plays In Ahemdabad </span>|<span class="fut"> Plays In Kolkata </span>|<span class="fut"> Plays In Kochi </span></p>
+  
+        <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">ACTIVITIES In Top Cities</h6>
+        <p><span class="fut">Things to do In Mumbai </span>|<span class="fut"> Things to do In Delhi-NCR </span>|<span class="fut"> Things to do In Chennai </span>|<span class="fut"> Things to do In Bengaluru </span>|<span class="fut"> Things to do In Hydrabad </span>|<span class="fut"> Things to do In Pune </span>|<span class="fut"> Things to do In Ahemdabad </span>|<span class="fut"> Things to do In Kolkata </span>|<span class="fut"> Things to do In Kochi </span></p>
+  
+        <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">COUNTRIES</h6>
+        <p><span class="fut">Indonesia </span>|<span class="fut"> Singapore </span>|<span class="fut"> UAE </span>|<span class="fut"> Sri Lanka </span>|<span class="fut"> West indies </span></p>
+  
+        <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">HELP</h6>
+        <p><span class="fut">About Us </span>|<span class="fut"> Contact Us </span>|<span class="fut"> Current Opening </span>|<span class="fut"> Press Coverage </span>|<span class="fut"> Sitemap </span></p>
+  
+        <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">BOOKMYSHOW EXCLUSIVE</h6>
+        <p><span class="fut">Lollapalooza india </span>|<span class="fut"> Superstar </span>|<span class="fut"> BookAsmile </span>|<span class="fut"> Corporate Vouchers </span>|<span class="fut"> Gift Cards </span>|<span class="fut"> List My SHow </span>|<span class="fut"> Offers </span>|<span class="fut"> Stream </span>|<span class="fut"> Buzz </span>|<span class="fut"> Trailers </span></p>
+            <br>
+      
+        <img src="assets\book my show logo.png" height="50px" width="160px" style="margin-left: 43%;">
+  
+        <div class="fut2   container-fluid">
+          <div class="icon1">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter-x"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-youtube"></i>
+            <i class="bi bi-pinterest"></i>
+            <i class="bi bi-linkedin"></i>
+          </div>
+            
+          <p> © Bigtree Entertainment Pvt. Ltd. All Rights Reserved.</p>
+          <p>The content and images used on this site are copyright protected and copyrights vests with the respective owners. The usage of the content and images on this website is intended to promote the works and no endorsement of the artist shall be implied. Unauthorized use is prohibited and punishable by law.</p>
+          </div>
+      </div>
+  
+    </div>
+  </div>
+
+  <router-outlet></router-outlet>

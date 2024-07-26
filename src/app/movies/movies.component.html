@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    
+        <!--adding cdn links-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="/movies.css">
+    
+    </head>
+
+    <style>
+      *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.notibar :hover{
+    transform: translateY(2px);
+    transition: 2s;
+}
+
+.h1{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.lanuage{
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.span1 {
+    font-size: 20px;
+    cursor: pointer;
+    color: tomato;
+    margin-left: 700px;
+}
+
+.bi{
+    font-size: 20px;
+    color: tomato;
+}
+
+.card1{
+    display: flex;
+    margin-top: 20PX;
+    margin-left: 200px;
+    gap: 2rem;
+}
+
+.fut{
+    color: rgb(106, 84, 84);
+  }
+  
+  .fut:hover{
+    color: white;
+    transition: 1s;
+  }
+
+  .fut2{
+    background-color: #333333;
+    width: 100%;
+    height: 300px;
+}
+
+.icon1{
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 50px 0 50px 0;
+}
+
+.icon1 i{
+    margin: 4px;
+}
+
+.icon1 i:hover{
+    color: white;
+    transition: 1s;
+}
+
+.fut2 p{
+    color: #666666;
+    text-align: center;
+    padding: 0 20px;
+}
+    </style>
+ <body>
+      <!-- parat 1st page -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets\i1.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets\i2.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets\i3.avif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+       </div>
+
+       <h1 class="h1">Movies in Mumbai</h1>
+
+       <div class="lanuage">
+        <button type="button" class="btn btn-outline-danger rounded-pill">English</button>
+        <button type="button" class="btn btn-outline-danger rounded-pill">Hindi</button>
+        <button type="button" class="btn btn-outline-danger rounded-pill">Marathi</button>
+        <button type="button" class="btn btn-outline-danger rounded-pill">Malyalam</button>
+        <button type="button" class="btn btn-outline-danger rounded-pill">Bojpuri</button>
+        <button type="button" class="btn btn-outline-danger rounded-pill">Tamil</button>
+        <button type="button" class="btn btn-outline-danger rounded-pill">Multy Language</button>
+       </div>
+
+       <h1 class="h1">Coming Soon <span class="span1">Explore Upcoming Movies</span><i class="bi bi-chevron-right "></i></h1>
+
+
+       <!-- movies section start -->
+    <div class="card1">
+        <div class="card" style="width: 14rem;">
+            <a target="_parent"><img src="assets\farray.avif" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <h5 data-bs-toggle="tooltip" 
+                title=" ABOUT THIS MOVIE:-
+                Farrey is the story of Niyati and Akash, two toppers from a poor background. 
+                Niyati is living with her foster parents and the foster kids while Akash 
+                works as a part time delivery boy. When they get admission at the no.1 
+                college in the city, their world collides with another, the richer kind.
+    
+                        
+    CASTS:-1.Alizeh Agnihotri 
+                 2.Kshitee Jog
+                 3.Ronit Roy
+                 4.Sahil Mehta 
+                 5.Juhi Babbar
+                 6.Arbaaz Khan 
+                 7.Shilpa Shukla
+                 8.Prasanna Bisht 
+                  " >FARREY</h5>
+                <h6>India</h6>
+                <h6>Hindi | English</h6>
+            </div>
+          </div>
+
+          <div class="card" style="width: 14rem;">
+            <img src="assets\zimma.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 data-bs-toggle="tooltip"  title=" ABOUT THIS MOVIE:-
+                The gang reunites for yet another excursion filled with
+                adventure and self-discovery but this time with some unexpected
+                twists. They come across new challenges that seem unsurpassable,
+                but with the right people by your side, nothing
+                seems impossible.
+    
+    CASTS:-1.Sayali Sanjeev
+                 2.Kshitee Jog
+                 3.Nirmiti Sawant
+                 4.Rinku Rajguru
+                 5.Suchitra Bandekar
+                 6.Suhas Joshi
+                 7.Shivani Surve
+                 8.Siddharth Chnadekar
+          ">Zimma</h5>
+                <h6>India</h6>
+                <h6>Comedy | Drama</h6>
+                
+            </div>
+          </div>
+
+          <div class="card" style="width: 14rem;">
+            <img src="assets\tiger3.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 data-bs-toggle="tooltip" 
+                title=" ABOUT THIS MOVIE:-
+                Tiger and Zoya recruit their team of RAW agents, to steal a briefcase for Aatish,
+                containing missile launch codes in Istanbul in exchange for Junior. Aatish then 
+                has Tiger and Zoya framed as traitors by their respective countries, leading to
+                Tiger's detention at an army prison in northern Pakistan.
+      
+                        
+      CASTS:-1.Salman Khan 
+                  2.Katrina Kaif 
+                  3.Emraan Hashmi
+                  4.Revathi Mehta 
+                  5.Simran 
+                  " >Tiger 3</h5>
+                <h6>India</h6>
+                <h6>Hindi | English</h6>
+            </div>
+          </div>
+
+          <div class="card" style="width: 14rem;">
+            <img src="assets\napolian.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 data-bs-toggle="tooltip" 
+                title=" ABOUT THIS MOVIE:-
+                Based on the story of Napoleon Bonaparte, primarily depicting the French leader's
+                rise to power as well as his relationship with Empress Joséphine, the film stars
+                Joaquin Phoenix as Napoleon and Vanessa Kirby as Joséphine.
+      
+                        
+      CASTS:-1.Joaquin Phoenix 
+                  2.Vanessa Kirby
+                  3.Tahar Rahim
+                  4.Rupert Everett 
+                  5.Mark Bonnar
+                  6.Paul Rhys
+                  7.Ben Miles
+                  8.Riana Duce 
+                  ">Napoeon</h5>
+                <h6>India</h6>
+                <h6>Hindi | English</h6>
+            </div>
+          </div>
+          
+    </div>
+
+    <div class="card1">
+      <div class="card" style="width: 14rem;">
+          <img src="assets\12th fail.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 data-bs-toggle="tooltip" 
+              title=" ABOUT THIS MOVIE:-
+              12th Fail is a 2023 Indian Hindi-language biographical drama film produced,
+              written and directed by Vidhu Vinod Chopra. It is based on the 2019 eponymous
+              non-fiction book by Anurag Pathak about the real-life story of Manoj Kumar Sharma
+              who overcame extreme poverty to become an Indian Police Service officer.
+    
+                      
+    CASTS:-1.Vikrant Massey 
+                2.Medha Shankar
+                3.Sanjay Bishnoi
+                4.Anant V Joshi 
+                5.Anshuman Pushkar
+                6.Sukumar Tudu
+                7.Priyanshu Chatterjee
+                8.Suraj Naagar 
+                ">12th Fail</h5>
+              <h6>India</h6>
+              <h6>Hindi | English</h6>
+          </div>
+        </div>
+
+        <div class="card" style="width: 14rem;">
+          <img src="assets\m2.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5>Naal - Bhag 2</h5>
+              <h6>India</h6>
+              <h6>Hindi | English</h6>
+          </div>
+        </div>
+
+        <div class="card" style="width: 14rem;">
+          <img src="assets\m2.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5>WISH</h5>
+              <h6>India</h6>
+              <h6>Hindi | English</h6>
+          </div>
+        </div>
+
+        <div class="card" style="width: 14rem;">
+          <img src="assets\m2.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5>WISH</h5>
+              <h6>India</h6>
+              <h6>Hindi | English</h6>
+          </div>
+        </div>
+        
+  </div>
+
+  <div class="card1">
+    <div class="card" style="width: 14rem;">
+        <img src="assets\farray.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5>FARREY</h5>
+            <h6>India</h6>
+            <h6>Hindi | English</h6>
+        </div>
+      </div>
+
+      <div class="card" style="width: 14rem;">
+        <img src="assets\farray.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5>FARREY</h5>
+            <h6>India</h6>
+            <h6>Hindi | English</h6>
+        </div>
+      </div>
+
+      <div class="card" style="width: 14rem;">
+        <img src="assets\farray.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5>FARREY</h5>
+            <h6>India</h6>
+            <h6>Hindi | English</h6>
+        </div>
+      </div>
+
+      <div class="card" style="width: 14rem;">
+        <img src="assets\farray.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5>FARREY</h5>
+            <h6>India</h6>
+            <h6>Hindi | English</h6>
+        </div>
+      </div>
+      
+</div>
+
+<div class="card1">
+  <div class="card" style="width: 14rem;">
+      <img src="assets\farray.avif" class="card-img-top" alt="...">
+      <div class="card-body">
+          <h5>FARREY</h5>
+          <h6>India</h6>
+          <h6>Hindi | English</h6>
+      </div>
+    </div>
+
+    <div class="card" style="width: 14rem;">
+      <img src="assets\farray.avif" class="card-img-top" alt="...">
+      <div class="card-body">
+          <h5>FARREY</h5>
+          <h6>India</h6>
+          <h6>Hindi | English</h6>
+      </div>
+    </div>
+
+    <div class="card" style="width: 14rem;">
+      <img src="assets\farray.avif" class="card-img-top" alt="...">
+      <div class="card-body">
+          <h5>FARREY</h5>
+          <h6>India</h6>
+          <h6>Hindi | English</h6>
+      </div>
+    </div>
+
+    <div class="card" style="width: 14rem;">
+      <img src="assets\farray.avif" class="card-img-top" alt="...">
+      <div class="card-body">
+          <h5>FARREY</h5>
+          <h6>India</h6>
+          <h6>Hindi | English</h6>
+      </div>
+    </div>
+    
+  </div>
+
+  <div style="background-color: #333338; margin-top: 9%;">
+    <p class="text-white" style="padding: 2%; font-size: large;"><b>List your show </b>   Got a show,event,activity or a great experience? Partner with us & get listed on BookMyShow</p>
+  
+  
+    <div style="margin-left: 3%;">
+      <h6 style="color: rgb(196, 165, 165);">MOVIES NOW SHOWING</h6>
+      <p><span class="fut">Jhimma 2 </span>|<span class="fut"> Tiger 3 </span>|<span class="fut"> Napoleon </span>|<span class="fut"> Farrey </span>|<span class="fut"> Naal Bhag-2 </span>|<span class="fut"> 12th Fail </span>|<span class="fut"> Animal </span></p>
+    
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">UPCOMING MOVIES</h6>
+      <p><span class="fut">Atharva </span>|<span class="fut"> The Bikeriders </span>|<span class="fut"> Raapata </span>|<span class="fut"> Naadu </span>|<span class="fut"> Palle Gootiki pandagocchindhi </span>|<span class="fut"> Sam Bahadur </span>|<span class="fut"> Gaarudiga </span>|<span class="fut"> Dance Party </span>|<span class="fut"> Annapoorani - The Goddess of Food </span>|<span class="fut"> Anavarana </span></p>
+    
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">MOVIES BY GEBRE</h6>
+      <p><span class="fut">Drama Movies </span>|<span class="fut"> Action Movies </span>|<span class="fut"> Thriller Movies </span>|<span class="fut"> Crime Movies </span>|<span class="fut"> Adaptation Movies </span>|<span class="fut"> Mythological Movies </span>|<span class="fut"> Noir Movies </span>|<span class="fut"> Political Movies </span>|<span class="fut"> Supernattural Movies </span>|<span class="fut"> Sports Movies </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">MOVIES BY LANGUAGE</h6>
+      <p><span class="fut">Movies in Hindi </span>|<span class="fut"> Movies in Marathi </span>|<span class="fut"> Movies in Chattisgrahi </span>|<span class="fut"> Movies in Khasi </span>|<span class="fut"> Movies in Tulu </span>|<span class="fut"> Movies in Japanese </span>|<span class="fut"> Movies in French </span>|<span class="fut"> Movies in Konkani </span>|<span class="fut"> Movies in Portuguese </span>|<span class="fut"> Movies in Punjabi </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">MOVIE REVIEWS AND TRENDING ARTICLES</h6>
+      <p><span class="fut">Trending Articles </span>|<span class="fut"> Latest News on Movies,Events,Plays and Sports </span>|<span class="fut"> Movie Celebrities </span>|<span class="fut"> Trailers </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">Sports Events</h6>
+      <p><span class="fut">Online Games </span>|<span class="fut"> E-Sports </span>|<span class="fut"> Football </span>|<span class="fut"> Kabaddi </span>|<span class="fut"> Athletics </span>|<span class="fut"> Baseball </span>|<span class="fut"> Badminton </span>|<span class="fut"> Chess </span>|<span class="fut"> Cycling </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">Events In Top Cities</h6>
+      <p><span class="fut">Events In Mumbai </span>|<span class="fut"> Events In Delhi-NCR </span>|<span class="fut"> Events In Chennai </span>|<span class="fut"> Events In Bengaluru </span>|<span class="fut"> Events In Hydrabad </span>|<span class="fut"> Events In Pune </span>|<span class="fut"> Events In Ahemdabad </span>|<span class="fut"> Events In Kolkata </span>|<span class="fut"> Events In Kochi </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">CINEMAS In Top Cities</h6>
+      <p><span class="fut">Cinemas In Mumbai </span>|<span class="fut"> Cinemas In Delhi-NCR </span>|<span class="fut"> Cinemas In Chennai </span>|<span class="fut"> Cinemas In Bengaluru </span>|<span class="fut"> Cinemas In Hydrabad </span>|<span class="fut"> Cinemas In Pune </span>|<span class="fut"> Cinemas In Ahemdabad </span>|<span class="fut"> Cinemas In Kolkata </span>|<span class="fut"> Cinemas In Kochi </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">Plays In Top Cities</h6>
+      <p><span class="fut">Plays In Mumbai </span>|<span class="fut"> Plays In Delhi-NCR </span>|<span class="fut"> Plays In Chennai </span>|<span class="fut"> Plays In Bengaluru </span>|<span class="fut"> Plays In Hydrabad </span>|<span class="fut"> Plays In Pune </span>|<span class="fut"> Plays In Ahemdabad </span>|<span class="fut"> Plays In Kolkata </span>|<span class="fut"> Plays In Kochi </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">ACTIVITIES In Top Cities</h6>
+      <p><span class="fut">Things to do In Mumbai </span>|<span class="fut"> Things to do In Delhi-NCR </span>|<span class="fut"> Things to do In Chennai </span>|<span class="fut"> Things to do In Bengaluru </span>|<span class="fut"> Things to do In Hydrabad </span>|<span class="fut"> Things to do In Pune </span>|<span class="fut"> Things to do In Ahemdabad </span>|<span class="fut"> Things to do In Kolkata </span>|<span class="fut"> Things to do In Kochi </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">COUNTRIES</h6>
+      <p><span class="fut">Indonesia </span>|<span class="fut"> Singapore </span>|<span class="fut"> UAE </span>|<span class="fut"> Sri Lanka </span>|<span class="fut"> West indies </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">HELP</h6>
+      <p><span class="fut">About Us </span>|<span class="fut"> Contact Us </span>|<span class="fut"> Current Opening </span>|<span class="fut"> Press Coverage </span>|<span class="fut"> Sitemap </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">BOOKMYSHOW EXCLUSIVE</h6>
+      <p><span class="fut">Lollapalooza india </span>|<span class="fut"> Superstar </span>|<span class="fut"> BookAsmile </span>|<span class="fut"> Corporate Vouchers </span>|<span class="fut"> Gift Cards </span>|<span class="fut"> List My SHow </span>|<span class="fut"> Offers </span>|<span class="fut"> Stream </span>|<span class="fut"> Buzz </span>|<span class="fut"> Trailers </span></p>
+          <br>
+    
+      <img src="assets\book my show logo.png" height="50px" width="160px" style="margin-left: 43%;">
+    </div>
+    
+  </div>
+  <div class="fut2   container-fluid">
+    <div class="icon1">
+      <i class="bi bi-facebook"></i>
+      <i class="bi bi-twitter-x"></i>
+      <i class="bi bi-instagram"></i>
+      <i class="bi bi-youtube"></i>
+      <i class="bi bi-pinterest"></i>
+      <i class="bi bi-linkedin"></i>
+    </div>
+      
+    <p> © Bigtree Entertainment Pvt. Ltd. All Rights Reserved.</p>
+    <p>The content and images used on this site are copyright protected and copyrights vests with the respective owners. The usage of the content and images on this website is intended to promote the works and no endorsement of the artist shall be implied. Unauthorized use is prohibited and punishable by law.</p>
+    </div>
+    
+</body>
+</html>
+
+<router-outlet></router-outlet>
+
+
+<script>
+  // Initialize tooltips
+  vartooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  vartooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+  })
+  </script>

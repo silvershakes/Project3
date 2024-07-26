@@ -1,0 +1,300 @@
+<head>
+    
+    <!--adding cdn links-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+
+<style>
+        .notibar :hover{
+    transform: translateY(2px);
+    transition: 2s;
+}
+
+.wrapper{
+  overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar{width: 0%;}
+.wrapper .item{
+  min-width: 300px;
+  line-height: 30px;
+
+}
+
+.fut{
+  color: rgb(106, 84, 84);
+}
+
+.fut:hover{
+  color: white;
+  transition: 1s;
+}
+
+.fut2{
+    margin-left: -1%;
+    width: 100%;
+    height: 300px;
+}
+
+.icon1{
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 50px 0 50px 0;
+}
+
+.icon1 i{
+    margin: 4px;
+}
+
+.icon1 i:hover{
+    color: white;
+    transition: 1s;
+}
+
+.fut2 p{
+    color: #666666;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.voting{
+    position: relative;
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+
+}
+
+.input12{
+    width: 50px;
+    border: none;
+    background: none;
+    color: #919191;
+    font-size: 30px;
+    margin: 0 10px;
+    pointer-events: none;
+}
+
+.but1{
+width: 50px;
+    
+}
+
+.but1:active{
+    color: #004eff;
+    transform: scale(1.2);
+}
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: black;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="app.component.html"><img src="C:\Users\pravi\bookmyshow\src\assets\book my show logo.png" height="40px" width="120px" style="margin-left: 35%;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll" style="margin-left:5%; position: relative; top: 7px;">
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search for Movies,Events,Plays,Sports and Activities" aria-label="Search" style="width: 600px;">
+
+          <button class="btn btn-outline-success" type="submit" style="position: relative; left: 80%; ">Sign in</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg " style="background-color: #333545;">
+    <div class="container-fluid">
+      
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 3%; width: 100%;">
+          <li class="nav-item notibar">
+            <a  class="nav-link active text-white" aria-current="page" href="#">Movies</a>
+          </li>
+          <li class="nav-item notibar">
+            <a class="nav-link text-white" href="#">Stream</a>
+          </li>
+          <li class="nav-item notibar">
+            <a class="nav-link text-white" href="#">Events</a>
+          </li>
+          <li class="nav-item notibar">
+            <a class="nav-link text-white" href="#">Plays</a>
+          </li>
+          <li class="nav-item notibar">
+            <a class="nav-link text-white" href="#">Sports</a>
+          </li>
+          <li class="nav-item notibar">
+            <a class="nav-link text-white" href="#">Activities</a>
+          </li>
+          <li class="nav-item notibar" style="margin-left: 46%;">
+            <a class="nav-link text-white" href="#">ListYourShow</a>
+          </li>
+          <li class="nav-item notibar">
+            <a class="nav-link text-white" href="#">Corporate</a>
+          </li>
+          <li class="nav-item notibar">
+            <a class="nav-link text-white" href="#">Offers</a>
+          </li>
+          <li class="nav-item notibar">
+            <a class="nav-link text-white" href="#">Gift Cards</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div style="width: 100%; display: inline-flex; float: left;background-color: rgb(61, 29, 29);margin-bottom: 3%;" class="wrapper">
+        
+            <div class="card item" style="width: 300px; border: 0; margin: 2%;">
+                <a href="" ><img src="C:\Users\pravi\bookmyshow\src\assets\prokabbadi.avif" class="card-img-top" style="width: 100%;"></a> 
+            </div>
+
+            <div style="margin-left: 2%;color: white;">
+                <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white; font-size: 500%;">Pro Kabbadi League</p>
+                
+                <div style="display: inline-flex; float: left; background-color: rgb(88, 72, 72); width: 105%; border-radius: 10px; padding: 1%;" >
+                    <div style="font-size: xx-large; margin-left: 5%;">
+                        <p><b>Add your rating & review</b><br>Your ratings matter</p>
+                    </div>
+
+                    <div style="margin-left: 15%;margin-top: 4.5%;">
+                        <button class="btn btn-light btn-lg">Rate now</button>
+                    </div>
+                </div>
+
+                <div style="display: inline-flex; float: left; margin-top: 5%;">
+                    <div>
+                        <h3><span class="badge bg-light text-dark">2D</span></h3>
+                    </div>
+
+                    <div style="margin-left: 5%;">
+                        <h3><span class="badge bg-light text-dark">Hindi | English</span></h3>
+                    </div>
+
+                </div>
+            
+                <p style="position: relative; top: 100px; left: -220px; font-size: large;">2 Hr • Sport • Fri 15 Dec, 2023 • ₹350 <small>Onwards</small></p>
+            
+                <button style="position: relative; top: 100px; left: -220px; font-size: large; padding: 10px 50px 10px 50px;" class="btn btn-danger" onclick="bookticket()">Book Ticket</button>
+
+
+            
+            </div>
+  </div>
+
+
+                        <script>
+                            function bookticket(){
+                                alert("Yours Ticket is booked for this movie")
+                            }
+                        </script>
+
+
+
+
+<div style="margin-left: 3%;">
+    <div style="width: 80%;">
+        <h2>About the Sport</h2>
+
+        <p style="font-size: large;">
+            <br>
+            Puneri Paltan is one of the top-performing teams in the Pro Kabaddi League. With a mix of unstoppable energy, honed-out skills, and steely nerves, here's a force that consistently looks forward to perform better, challenge its opponents, and make a difference.            <br>
+            <br><b>Why should you attend?</b>
+            <ul>
+                
+                <li>Bassi comedic talent is unmatched and highly acclaimed.</li>
+                <br>
+                <li>The show offers relatable storytelling an amusing anecodotes.</li>
+                <br>
+                <li>Attending this show means experiencing an evening filled with sheer amusment.</li>
+            </ul>
+        </div>
+
+    <hr>
+
+
+
+</div>
+
+
+
+
+<div style="background-color: #333338; margin-top: 5%;">
+
+    <div style="display: inline-flex; float: left; width: 100%;">
+        <div style="width: 85%;">
+            <p class="text-white" style="padding: 2%; font-size: large;"><b>List your show </b>   Got a show,event,activity or a great experience? Partner with us & get listed on BookMyShow</p>
+        </div>
+
+        <div style="margin-top: 1%;">
+            <button class="btn btn-danger btn-lg">Contact Today!</button>
+        </div>
+    </div>
+  
+  <br>
+    <div style="margin-left: 3%;">
+      <h6 style="color: rgb(196, 165, 165);">MOVIES NOW SHOWING</h6>
+      <p><span class="fut">Jhimma 2 </span>|<span class="fut"> Tiger 3 </span>|<span class="fut"> Napoleon </span>|<span class="fut"> Farrey </span>|<span class="fut"> Naal Bhag-2 </span>|<span class="fut"> 12th Fail </span>|<span class="fut"> Animal </span></p>
+    
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">UPCOMING MOVIES</h6>
+      <p><span class="fut">Atharva </span>|<span class="fut"> The Bikeriders </span>|<span class="fut"> Raapata </span>|<span class="fut"> Naadu </span>|<span class="fut"> Palle Gootiki pandagocchindhi </span>|<span class="fut"> Sam Bahadur </span>|<span class="fut"> Gaarudiga </span>|<span class="fut"> Dance Party </span>|<span class="fut"> Annapoorani - The Goddess of Food </span>|<span class="fut"> Anavarana </span></p>
+    
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">MOVIES BY GEBRE</h6>
+      <p><span class="fut">Drama Movies </span>|<span class="fut"> Action Movies </span>|<span class="fut"> Thriller Movies </span>|<span class="fut"> Crime Movies </span>|<span class="fut"> Adaptation Movies </span>|<span class="fut"> Mythological Movies </span>|<span class="fut"> Noir Movies </span>|<span class="fut"> Political Movies </span>|<span class="fut"> Supernattural Movies </span>|<span class="fut"> Sports Movies </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">MOVIES BY LANGUAGE</h6>
+      <p><span class="fut">Movies in Hindi </span>|<span class="fut"> Movies in Marathi </span>|<span class="fut"> Movies in Chattisgrahi </span>|<span class="fut"> Movies in Khasi </span>|<span class="fut"> Movies in Tulu </span>|<span class="fut"> Movies in Japanese </span>|<span class="fut"> Movies in French </span>|<span class="fut"> Movies in Konkani </span>|<span class="fut"> Movies in Portuguese </span>|<span class="fut"> Movies in Punjabi </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">MOVIE REVIEWS AND TRENDING ARTICLES</h6>
+      <p><span class="fut">Trending Articles </span>|<span class="fut"> Latest News on Movies,Events,Plays and Sports </span>|<span class="fut"> Movie Celebrities </span>|<span class="fut"> Trailers </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">Sports Events</h6>
+      <p><span class="fut">Online Games </span>|<span class="fut"> E-Sports </span>|<span class="fut"> Football </span>|<span class="fut"> Kabaddi </span>|<span class="fut"> Athletics </span>|<span class="fut"> Baseball </span>|<span class="fut"> Badminton </span>|<span class="fut"> Chess </span>|<span class="fut"> Cycling </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">Events In Top Cities</h6>
+      <p><span class="fut">Events In Mumbai </span>|<span class="fut"> Events In Delhi-NCR </span>|<span class="fut"> Events In Chennai </span>|<span class="fut"> Events In Bengaluru </span>|<span class="fut"> Events In Hydrabad </span>|<span class="fut"> Events In Pune </span>|<span class="fut"> Events In Ahemdabad </span>|<span class="fut"> Events In Kolkata </span>|<span class="fut"> Events In Kochi </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">CINEMAS In Top Cities</h6>
+      <p><span class="fut">Cinemas In Mumbai </span>|<span class="fut"> Cinemas In Delhi-NCR </span>|<span class="fut"> Cinemas In Chennai </span>|<span class="fut"> Cinemas In Bengaluru </span>|<span class="fut"> Cinemas In Hydrabad </span>|<span class="fut"> Cinemas In Pune </span>|<span class="fut"> Cinemas In Ahemdabad </span>|<span class="fut"> Cinemas In Kolkata </span>|<span class="fut"> Cinemas In Kochi </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">Plays In Top Cities</h6>
+      <p><span class="fut">Plays In Mumbai </span>|<span class="fut"> Plays In Delhi-NCR </span>|<span class="fut"> Plays In Chennai </span>|<span class="fut"> Plays In Bengaluru </span>|<span class="fut"> Plays In Hydrabad </span>|<span class="fut"> Plays In Pune </span>|<span class="fut"> Plays In Ahemdabad </span>|<span class="fut"> Plays In Kolkata </span>|<span class="fut"> Plays In Kochi </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">ACTIVITIES In Top Cities</h6>
+      <p><span class="fut">Things to do In Mumbai </span>|<span class="fut"> Things to do In Delhi-NCR </span>|<span class="fut"> Things to do In Chennai </span>|<span class="fut"> Things to do In Bengaluru </span>|<span class="fut"> Things to do In Hydrabad </span>|<span class="fut"> Things to do In Pune </span>|<span class="fut"> Things to do In Ahemdabad </span>|<span class="fut"> Things to do In Kolkata </span>|<span class="fut"> Things to do In Kochi </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">COUNTRIES</h6>
+      <p><span class="fut">Indonesia </span>|<span class="fut"> Singapore </span>|<span class="fut"> UAE </span>|<span class="fut"> Sri Lanka </span>|<span class="fut"> West indies </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">HELP</h6>
+      <p><span class="fut">About Us </span>|<span class="fut"> Contact Us </span>|<span class="fut"> Current Opening </span>|<span class="fut"> Press Coverage </span>|<span class="fut"> Sitemap </span></p>
+  
+      <h6 style="color: rgb(196, 165, 165); margin-top: 2%;">BOOKMYSHOW EXCLUSIVE</h6>
+      <p><span class="fut">Lollapalooza india </span>|<span class="fut"> Superstar </span>|<span class="fut"> BookAsmile </span>|<span class="fut"> Corporate Vouchers </span>|<span class="fut"> Gift Cards </span>|<span class="fut"> List My SHow </span>|<span class="fut"> Offers </span>|<span class="fut"> Stream </span>|<span class="fut"> Buzz </span>|<span class="fut"> Trailers </span></p>
+          <br>
+    
+      <img src="C:\Users\pravi\bookmyshow\src\assets\book my show logo.png" height="50px" width="160px" style="margin-left: 43%;">
+  
+      <div class="fut2   container-fluid">
+        <div class="icon1">
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-twitter-x"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-youtube"></i>
+          <i class="bi bi-pinterest"></i>
+          <i class="bi bi-linkedin"></i>
+        </div>
+          
+        <p> © Bigtree Entertainment Pvt. Ltd. All Rights Reserved.</p>
+        <p>The content and images used on this site are copyright protected and copyrights vests with the respective owners. The usage of the content and images on this website is intended to promote the works and no endorsement of the artist shall be implied. Unauthorized use is prohibited and punishable by law.</p>
+        </div>
+    </div>
+  
+  </div>
+
+  
